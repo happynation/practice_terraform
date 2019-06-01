@@ -1,4 +1,4 @@
-resource "docker_image" "docker_image" {
+resource "docker_image" "image_id" {
   name = "ghost:latest"
 }
 #start the container

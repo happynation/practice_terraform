@@ -1,5 +1,5 @@
 resource "docker_image" "image_id" {
-  name = "ghost:latest"
+  name = "ghost:alpine"
 }
 #start the container
 resource "docker_container" "container_id" {

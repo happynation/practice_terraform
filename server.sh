@@ -5,4 +5,4 @@ sudo systemctl start httpd
 sudo systemctl enable httpd
 wget https://wordpress.org/latest.tar.gz
 tar -xzf latest.tar.gz
-cp -r wordpress/* /var/www/html/
+sudo cp -r wordpress/* /var/www/html/

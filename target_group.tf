@@ -9,7 +9,7 @@ resource "aws_lb_target_group" "my_tg" {
     path = "/"
     port = 80
     healthy_threshold = 6
-    unhealthy_threshold = 2
+    unhealthy_threshold = 5
     timeout = 120
     interval = 300
     matcher = "200"  # has to be HTTP 200 or fails
